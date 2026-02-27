@@ -32,7 +32,7 @@ HorseRacingDB/
 - **Backend**: Python 3.x
 - **GUI**: Tkinter
 - **Database**: MySQL
-- **Database Driver**: mysql-connector-python
+
 
 ## Prerequisites
 
@@ -40,34 +40,6 @@ HorseRacingDB/
 - MySQL Server running
 - mysql-connector-python library
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd HorseRacingDB
-   ```
-
-2. Install required Python dependencies:
-   ```bash
-   pip install mysql-connector-python
-   ```
-
-3. Set up the MySQL database:
-   - Open MySQL and run the `ddl_dml.sql` script to create the database schema
-   - Run `admin_functions.sql` to create admin-level stored procedures
-   - Run `guest_functions.sql` to create guest-level stored procedures
-
-4. Configure database connection:
-   - Edit `db_connection.py` with your MySQL credentials:
-     ```python
-     connection = mysql.connector.connect(
-         host="localhost",        # Your MySQL host
-         user="root",             # Your MySQL username
-         password="password",     # Your MySQL password
-         database="racing"
-     )
-     ```
 
 ## Usage
 
@@ -109,19 +81,7 @@ python horse_racing_gui.py
 - **admin_functions.sql**: Admin-level stored procedures and functions
 - **guest_functions.sql**: Guest-level read-only procedures and views
 
-## Future Enhancements
-
-- User authentication system
-- Data export functionality (CSV, PDF)
-- Advanced reporting features
-- Mobile app interface
-- Performance optimization for large datasets
-
-## License
-
-This project is provided as-is for educational and commercial use.
-
-## Contact
+### By Ibrahim Alshayea
 
 For questions or suggestions, please contact the development team.
 
