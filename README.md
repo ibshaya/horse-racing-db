@@ -83,8 +83,3 @@ python horse_racing_gui.py
 
 ### By Ibrahim Alshayea
 
-For questions or suggestions, please contact the development team.
-
----
-
-**Last Updated**: February 2026
